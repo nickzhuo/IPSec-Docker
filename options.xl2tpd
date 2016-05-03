@@ -1,0 +1,18 @@
+ms-dns 8.8.8.8
+ms-dns 8.8.4.4
+asyncmap 0
+auth
+idle 1800
+mtu 1200
+mru 1200
+lock
+hide-password
+local
+proxyarp
+nodefaultroute
+connect-delay 5000
+lcp-echo-interval 30
+lcp-echo-failure 4
+ipcp-accept-local
+ipcp-accept-remote
+
