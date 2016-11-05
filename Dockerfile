@@ -13,6 +13,7 @@ WORKDIR /tmp/setup
 ENV USERNAME vpnuser
 ENV PASSWORD ch4ng3m3
 ENV PRESHAREDKEY y0umustc4ngeme
+ENV PUBLICIP 0.0.0.0
 VOLUME /lib/modules
 
 

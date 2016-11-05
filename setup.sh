@@ -1,6 +1,6 @@
 #!/bin/sh
-if[$PUBLICIP="0.0.0.0"]
-then  
+if[$PUBLICIP=="0.0.0.0"]
+then
   PUBLICIP=`wget -q -O - http://ipecho.net/plain`;
 fi
 echo "net.ipv4.conf.all.accept_redirects = 0" | tee -a /etc/sysctl.conf
