@@ -1,5 +1,5 @@
 #!/bin/sh
-if [$PUBLICIP=="0.0.0.0"]
+if [ "$PUBLICIP" = "0.0.0.0" ]
 then
   PUBLICIP=`wget -q -O - http://ipecho.net/plain`;
 fi
